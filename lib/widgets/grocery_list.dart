@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'package:shop/models/grocery_item.dart';
 import 'package:shop/widgets/new_item.dart';
 
 class GroceryList extends StatefulWidget {
-  const GroceryList({super.key});
+  const GroceryList({Key? key});
 
   @override
   State<GroceryList> createState() => _GroceryListState();
@@ -47,6 +46,15 @@ class _GroceryListState extends State<GroceryList> {
             _removeItem(_groceryItems[index]);
           },
           key: ValueKey(_groceryItems[index].id),
+          background: Container(
+            color: Color.fromARGB(255, 213, 152, 148),
+            alignment: Alignment.centerRight,
+            padding: const EdgeInsets.only(right: 20.0),
+            child: const Icon(
+              Icons.delete,
+              color: Colors.white,
+            ),
+          ),
           child: ListTile(
             title: Text(_groceryItems[index].name),
             leading: Container(
