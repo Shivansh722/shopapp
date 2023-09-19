@@ -11,6 +11,12 @@ It is an app to have a list of the items you wish to buy for grocery. Obviously 
 - Easy addition and deletion of wishlist items.
 - Cross platform(obvoiusly bros:Flutter it is!)
 
+## Roadmap
+
+- That's not it surely, there is something I want to do new with it.So I am planning for a few features.
+- I want to use backend in this project using firebase.
+- Also I also want this app to compare the prices of items from same category.
+- Calorie calculator is something that I want to add with the wishlist too.
 
 
 ## Looks
@@ -44,11 +50,5 @@ It is an app to have a list of the items you wish to buy for grocery. Obviously 
 ![Screenshot 2023-09-19 140801](https://github.com/Shivansh722/shopapp/assets/113300509/e5614aff-c75e-4111-be21-f136fab9c09f)
 
 
-## Roadmap
-
-- That's not it surely, there is something I want to do new with it.So I am planning for a few features.
-- I want to use backend in this project using firebase.
-- Also I also want this app to compare the prices of items from same category.
-- Calorie calculator is something that I want to add with the wishlist too.
 
 
