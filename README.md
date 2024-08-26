@@ -1,4 +1,4 @@
-## Shopping Wishlist App
+# Shopping Wishlist App
 
 It is an app to have a list of the items you wish to buy for grocery. Obviously we can add or remove the items. The list is completely editable.
 
